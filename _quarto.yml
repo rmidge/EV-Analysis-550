@@ -29,13 +29,13 @@ website:
         contents:
           - href: analysis/index.qmd
             text: "Overview"
-          - href: /EV-Analysis/analysis/1-Census-Tract-Analysis.html
+          - href: analysis/1-Census-Tract-Analysis.ipynb
             text: "Census Tract Analysis"
-          - href: /EV-Analysis/analysis/2-Service-Gap-Analysis.html
+          - href: analysis/2-Service-Gap-Analysis.ipynb
             text: "Service Gap Analysis"
-          - href: /EV-Analysis/analysis/3-Results.html
+          - href: analysis/3-Results.ipynb
             text: "Results"
-          - href: /EV-Analysis/analysis/4-Interactive-Dashboard.html
+          - href: analysis/4-Interactive-Dashboard.qmd
             text: "Interactive Dashboard"
       - conclusions.qmd
 
