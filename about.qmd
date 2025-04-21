@@ -52,7 +52,7 @@ toc: false
   <img src="images/rachel.JPEG" alt="Rachel Midgett" class="profile-image">
   <h2>Rachel Midgett</h2>
   <p>Master of Urban Spatial Analytics<br>University of Pennsylvania</p>
-  <a href="https://github.com/rachelmidget/EV_Analysis" style="display: inline-block; padding: 0.5rem 1rem; background-color: #eaeaea; border-radius: 4px; text-decoration: none; color: #333;">GitHub Repository</a>
+  <a href="https://github.com/rmidge/EV-Analysis-550" style="display: inline-block; padding: 0.5rem 1rem; background-color: #eaeaea; border-radius: 4px; text-decoration: none; color: #333;">GitHub Repository</a>
 </div>
 
 ## Project Background

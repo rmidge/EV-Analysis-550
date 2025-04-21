@@ -17,7 +17,7 @@ website:
     background: light
     tools:
       - icon: github
-        href: https://github.com/MUSA-550-Fall-2024/
+        href: https://github.com/rmidge/EV-Analysis-550
         text: "Project GitHub"
     contents:
       - section: "Main"
