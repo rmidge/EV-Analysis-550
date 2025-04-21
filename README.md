@@ -25,4 +25,4 @@ This repository contains a comprehensive analysis of electric vehicle (EV) charg
 ## Author
 [Rachel Midgett - rachelmidge@gmail.com]
 
-https://rmidge.github.io/EV-ANALYSIS-550/
+https://rmidge.github.io/EV-Analysis-550/
