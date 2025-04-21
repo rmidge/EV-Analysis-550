@@ -1,0 +1,29 @@
+# Analysis
+
+This section presents a comprehensive analysis of Electric Vehicle (EV) charging infrastructure in Philadelphia, with a focus on identifying service gaps and prioritizing areas for future investment.
+
+## Analysis Overview
+
+The work leverages geospatial techniques, network analysis, and equity-focused metrics to assess the current distribution of EV charging stations across Philadelphia. Through this analysis, the study:
+
+1. **Maps current infrastructure** - Visualizes the spatial distribution of 130 EV charging stations across Philadelphia
+2. **Assesses accessibility** - Calculates walking and driving distances to nearest chargers for all census tracts
+3. **Identifies service gaps** - Develops a robust gap scoring methodology combining coverage metrics with socioeconomic factors
+4. **Prioritizes interventions** - Classifies census tracts into four priority tiers: Low, Medium, High, and Critical
+
+## Methodology Highlights
+
+The analysis employs multiple technical approaches:
+- Network-based distance calculations rather than simple buffers
+- Dynamic weighting system that responds to observed disparities
+- Consideration of station quality and capacity in service assessment
+- Integration of demographic factors including income, poverty, population density, and education
+
+## Interactive Elements
+
+Throughout these analyses, interactive visualizations allow for in-depth data exploration. Readers can examine specific census tracts, view detailed station information, and understand the relationships between different factors contributing to service gaps.
+
+The following pages demonstrate the step-by-step analytical process, from data preparation to service gap identification. While specific policy recommendations are not the primary focus, the priority classification system provides a clear framework for decision-makers to target future EV charging infrastructure investments.
+
+
+

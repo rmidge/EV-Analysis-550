@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 3333
+
+website:
+  title: "Equitable EV Infrastructure Analysis: Philadelphia"
+  page-footer:
+    left: "rachelmidge@gmail.com"
+    right: "This page is built with [Quarto](https://quarto.org/)."
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 2
+    title: "Navigation"
+    background: light
+    tools:
+      - icon: github
+        href: https://github.com/MUSA-550-Fall-2024/
+        text: "Project GitHub"
+    contents:
+      - section: "Main"
+        contents:
+          - href: index.qmd
+            text: Home
+          - about.qmd
+      - section: "Analysis"
+        contents:
+          - href: analysis/index.qmd
+            text: "Overview"
+          - href: /EV-Analysis/analysis/1-Census-Tract-Analysis.html
+            text: "Census Tract Analysis"
+          - href: /EV-Analysis/analysis/2-Service-Gap-Analysis.html
+            text: "Service Gap Analysis"
+          - href: /EV-Analysis/analysis/3-Results.html
+            text: "Results"
+          - href: /EV-Analysis/analysis/4-Interactive-Dashboard.html
+            text: "Interactive Dashboard"
+      - conclusions.qmd
+
+format:
+  html:
+    highlight-style: solarized
+    theme: cosmo
+    css: styles.css
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+    page-layout: full
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+

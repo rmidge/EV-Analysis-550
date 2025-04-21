@@ -1,0 +1,29 @@
+{
+  "about.qmd": {
+    "about.html": "821a673b"
+  },
+  "analysis/1-Census-Tract-Analysis.ipynb": {
+    "1-Census-Tract-Analysis.html": "8473cef8"
+  },
+  "analysis/2-Service-Gap-Analysis.ipynb": {
+    "2-Service-Gap-Analysis.html": "d43a5b07"
+  },
+  "analysis/3-Results.ipynb": {
+    "3-Results.html": "2849f3e0"
+  },
+  "analysis/4-Interactive-Dashboard.qmd": {
+    "4-Interactive-Dashboard.html": "eeea9312"
+  },
+  "analysis/index.qmd": {
+    "index.html": "7fc2f95f"
+  },
+  "code/Final_Code_.ipynb": {
+    "Final_Code_.html": "b3241431"
+  },
+  "conclusions.qmd": {
+    "conclusions.html": "b2527299"
+  },
+  "index.qmd": {
+    "index.html": "f7da3208"
+  }
+}

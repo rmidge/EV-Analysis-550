@@ -1,0 +1,85 @@
+---
+title: "Insights and Recommendations"
+---
+
+In conclusion, my analysis has provided a comprehensive overview of the EV charging station landscape in Philadelphia, revealing significant disparities in infrastructure distribution and access.
+
+## Key Insights
+
+1.  **Spatial Distribution Inequity**
+    -   Only 13.0% of residential census tracts (50 out of 385) contain charging stations
+    -   Strong concentration in Center City and University City areas
+    -   Significant North-South divide in infrastructure access
+2.  **Demographic Patterns**
+    -   Clear education disparity (strongest statistically significant effect)
+    -   Lower coverage in high-density neighborhoods (42.4% for low density vs 29.6% for high density)
+    -   Medium income areas have highest coverage (49.2%) compared to high (31.1%) and low income areas (16.8%)
+3.  **Gap Analysis Findings**
+    -   Mean gap score of 0.52 with standard deviation of 0.11
+    -   Balanced distribution across priority categories using the new thresholds [0.45, 0.55, 0.65]
+    -   11.9% of tracts fall into critical priority category
+    -   Strong clusters of high-need areas in North and West Philadelphia
+
+## Recommendations
+
+1.  **Priority Area Development**
+    -   Target North and West Philadelphia critical priority tracts (gap scores > 0.65)
+    -   Focus on high-density areas which are particularly underserved
+    -   Prioritize locations that improve equity across demographic groups
+2.  **Equity-Focused Implementation**
+    -   Develop sliding scale pricing based on neighborhood demographics
+    -   Partner with community organizations in high-priority areas
+    -   Create programs to ensure accessibility in lower-income areas
+3.  **Strategic Infrastructure Planning**
+    -   Address station clustering by promoting more dispersed distribution
+    -   Consider existing station quality and capacity in planning
+    -   Plan for multi-modal accessibility (both walking and driving)
+
+## Implementation Challenges and Limitations
+
+### Data Limitations
+
+-   Census data from 2020 may not reflect current demographics
+-   EV charging station data may not include recent installations
+-   Limited data on station capacity, usage patterns, and maintenance status
+
+### Methodological Considerations
+
+-   Network analysis limited by connectivity challenges in some areas
+-   Dynamic weighting system reflects current patterns but may need adjustment
+-   Edge effects at city boundaries may affect analysis accuracy
+
+### Model Constraints
+
+-   Gap score components weighted based on observed disparities (Coverage: 24%, Income: 16%, Poverty: 24%, Density: 20%, Education: 16%)
+-   23 tracts excluded from the original 408 Philadelphia tracts
+-   Land use and zoning restrictions not incorporated in analysis
+
+## Summary Statistics
+
+| Metric                  | Value | Context              |
+|-------------------------|-------|----------------------|
+| Total Stations          | 130   | From 150 API results |
+| Analyzed Tracts         | 385   | Of 408 total tracts  |
+| Mean Gap Score          | 0.52  | Scale 0-1            |
+| Low Priority Tracts     | 30.4% | Score ≤ 0.45         |
+| Medium Priority Tracts  | 27.5% | Score 0.45-0.55      |
+| High Priority Tracts    | 28.8% | Score 0.55-0.65      |
+| Critical Priority Tracts| 11.9% | Score > 0.65         |
+| Population Coverage     | 31.2% | Within service areas |
+
+## Addressing the Research Questions
+
+This analysis set out to answer several key questions about Philadelphia's EV charging infrastructure:
+
+### 1. How accessible are EV charging stations based on street network analysis?
+The network analysis reveals that only 31.2% of Philadelphia residents live within walking distance (0.75 miles) of an EV charging station. The accessibility is highly uneven, with Center City and University City enjoying excellent coverage while North and West Philadelphia face significant accessibility gaps.
+
+### 2. What patterns exist in the distribution of charging stations relative to population density and income levels?
+The analysis identified clear patterns in charging station distribution:
+- **Density relationship**: Counterintuitively, high-density areas have the lowest coverage (29.6%)
+- **Income relationship**: Medium-income areas have the highest coverage (49.2%), while low-income areas have the poorest access (16.8%)
+- **Education correlation**: Areas with higher education levels show statistically significant better access to charging infrastructure
+
+### 3. Are there significant gaps in charging infrastructure coverage within urban areas?
+Significant gaps exist throughout Philadelphia, with 11.9% of census tracts classified as Critical Priority areas requiring immediate infrastructure investment. These gaps are particularly pronounced in residential neighborhoods outside the city center and in areas with lower-than-average education levels.

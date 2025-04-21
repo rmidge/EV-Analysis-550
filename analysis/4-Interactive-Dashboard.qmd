@@ -1,0 +1,16 @@
+---
+title: "Interactive EV Charging Dashboard"
+format:
+  html:
+    page-layout: full
+    include-in-header:
+      - text: |
+          <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.3.min.js"></script>
+          <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.3.min.js"></script>
+          <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.4.3.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@holoviz/panel@0.14.4/dist/panel.min.js"></script>
+---
+
+This interactive dashboard allows exploration of Philadelphia's EV charging infrastructure, service areas, and gap analysis results. Use the controls to filter stations, adjust service areas, and explore different layers of analysis.
+
+<iframe src="dashboard.html" width="100%" height="800px" frameborder="0"></iframe>

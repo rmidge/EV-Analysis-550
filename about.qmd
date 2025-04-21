@@ -1,0 +1,98 @@
+---
+title: "About"
+page-layout: full
+toc: false
+---
+
+<style>
+.profile-container {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 4px solid white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.nav-footer a {
+  padding: 0.5rem 1rem;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.nav-footer a:hover {
+  background-color: #dee2e6;
+}
+</style>
+
+<div class="profile-container">
+  <img src="images/rachel.JPEG" alt="Rachel Midgett" class="profile-image">
+  <h2>Rachel Midgett</h2>
+  <p>Master of Urban Spatial Analytics<br>University of Pennsylvania</p>
+  <a href="https://github.com/rachelmidget/EV_Analysis" style="display: inline-block; padding: 0.5rem 1rem; background-color: #eaeaea; border-radius: 4px; text-decoration: none; color: #333;">GitHub Repository</a>
+</div>
+
+## Project Background
+
+This project analyzes equity in Philadelphia's EV charging infrastructure by mapping access disparities across neighborhoods and demographic groups. Using geospatial network analysis and socioeconomic indicators, the study creates a comprehensive gap score system that identifies priority areas for future infrastructure investment. The research combines coverage metrics, income levels, population density, and education data to develop evidence-based recommendations for creating a more inclusive and accessible charging network.
+
+The work was completed as part of the Fall 2024 MUSA 550 course at the University of Pennsylvania, applying advanced geospatial analytics and interactive visualization techniques to urban transportation planning challenges.
+
+## Methodology & Tools
+
+### Spatial Analysis
+- GeoPandas
+- NetworkX
+- OSMnx for network analysis
+
+### Data Processing
+- Pandas
+- NumPy
+- Dynamic weighting system
+
+### Visualization
+- Folium for interactive maps
+- Matplotlib for static charts
+- Panel dashboards
+
+## Data Sources
+
+- **EV Charging Stations**: Alternative Fuels Data Center (AFDC)
+- **Demographics**: American Community Survey (ACS) 2020
+- **Street Network**: OpenStreetMap (OSM)
+- **City Boundaries**: City of Philadelphia Open Data
+
+## Acknowledgments
+
+Special thanks to the instructors and teaching assistants of MUSA 550 for their guidance and support throughout this project.
+
+<div class="nav-footer">
+  <a href="index.qmd">Home</a>
+  <a href="analysis/2-Service-Gap-Analysis.ipynb">Methodology</a>
+  <a href="analysis/3-Results.ipynb">Results</a>
+  <a href="analysis/4-Interactive-Dashboard.qmd">Dashboard</a>
+  <a href="conclusions.qmd">Conclusions</a>
+</div>
